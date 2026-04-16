@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.regex.*;
 
-public class UseCase13TrainConsistManagementApp {
+public class UseCase14TrainConsistManagementApp {
 
     boolean isValidTrainID(String id) {
         return Pattern.matches("TRN-\\d{4}", id);
